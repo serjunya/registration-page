@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <title>PolyDrink | Регистрация</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+    <div id="left_part">
+        <div class="left_container">
+            <div class="community_text">
+                <p>THE ORIGINAL<br> POLYTECH<br> DRUNKS'<br> COMMUNITY</p>
+            </div>
+            <div class="polydrink_text">
+                PolyDrink.
+            </div>
+            <div class="company_text">
+                <p>find your company right now!</p>
+            </div>
+        </div>
+    </div>
+    <div id="main_part">
+        <div class="main_container">
+            <div class="register_text">
+                <p>Зарегистрироватьcя</p>
+            </div>
+            <div class="info_window">
+                <div class="states">
+                    <form action="" method="post">
+                        <div>
+                            <label for="name"> Ник: </label>
+                            <input type="text" id="name" name="user_name">
+                        </div>
+                        <div>
+                            <label for="login"> Логин: </label>
+                            <input type="text" id="login" name="user_login">
+                        </div>
+                        <div>
+                            <label for="password"> Пароль: </label>
+                            <input type="password" id="password" name="user_password">
+                        </div>
+                        <div>
+                            <label for="confirm">Подтвердить<br>пароль: </label>
+                            <input type="password" id="confirm" name="confirmation">
+                        </div>
+                    </form>
+                    <div id="error">
+                        Пароли не совпадают
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="button">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
